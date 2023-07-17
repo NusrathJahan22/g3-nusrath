@@ -1,0 +1,127 @@
+.nav{
+    display: flex;
+}
+.header{
+    background-color: bisque;
+
+}
+.ul{
+    margin-left: 1150px;
+    display: flex;
+    column-gap: 20px;
+    text-decoration: none;
+}
+.love{
+    margin-left: 350px;
+}
+    
+
+
+.h2{
+    margin-left: 20px;
+}
+.h1{
+    font-size: 50px;
+}
+.btn{
+    background-color: orangered;
+    padding: 20px;
+    color: aliceblue;
+}
+ 
+
+.text{
+    text-align: center;
+margin: 0,auto;
+
+}
+.div{
+    justify-content: center;
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.team2{
+    text-align: center;
+    margin-top: 220px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.list{
+    font-size: 40px;
+}
+.of{
+    color: gray;
+    font-size: 40px;
+}
+.of2{
+    color: orangered;
+    font-size: 40px;
+}
+.p-tag{
+    font-size: 50px;
+    border-left: 6px solid orangered;
+}
+.div{
+border: 3px solid wheat;
+padding: 30px;
+width: 500px;
+margin-left: 30px;
+margin-top: 10px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.girls{
+    position: relative;
+
+}
+.btn2{
+    background-color: orangered;
+    font-size: 50px;
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+.middle{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 30px;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    padding: 30px;
+    font-size: 30px;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    text-align: center;
+}
+.div1{
+    border:2px solid lightcoral;
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+@media screen and (max-width: 576px){
+   header{
+    padding: 30px;
+   }
+   nav{
+flex-direction:column;
+   } 
+}
+    
+
+
+    
